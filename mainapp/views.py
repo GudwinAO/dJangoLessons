@@ -15,7 +15,7 @@ class NewsPageView(TemplateView):
         # Get all previous data
         context = super().get_context_data(**kwargs)
         # Create your own data
-        context["news_qs"] = mainapp_models.News.objects.all()[:5]
+        context["news_qs"] = mainapp_models.News.objects.all()  # [:5]
         return context
 
 
