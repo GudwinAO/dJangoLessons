@@ -22,7 +22,7 @@
 
   <body>
 
-    {% include 'includes/messages.html' %}
+    {% include 'includes/messenges.html' %}
 
     <div class="row justify-content-around align-items-center" style="height: 100vh; margin: 0px">
       <div class="text-center">
@@ -83,7 +83,7 @@
     <script>
       $(document).ready(function () {
 
-        {% if messages %}
+        {% if messenges %}
           // Toasts
           $(".toast").toast({ delay: 5000 });
           $(".toast").toast("show");
