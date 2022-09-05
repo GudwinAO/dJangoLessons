@@ -13,9 +13,9 @@ class News(models.Model):
     def __str__(self) -> str:
         return f"{self.pk} {self.title}"
 
-    def delete(self, *args):
-        self.deleted = True
-        self.save()
+    # def delete(self, *args):
+    #    self.deleted = True
+    #    self.save()
 
 
 class CoursesManager(models.Manager):
