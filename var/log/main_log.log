@@ -1,2 +1,5 @@
 [2022-09-16 17:48:40,967] DEBUG mainapp.views (66) Yet another log message
 [2022-09-18 09:31:37,298] INFO mainapp.tasks (14) Send message: '{'user_id': '3', 'message': 'Hi. all shut down! '}'
+[2022-09-21 14:54:38,979] DEBUG mainapp.views (71) Yet another log message
+[2022-09-21 16:12:03,044] DEBUG mainapp.views (71) Yet another log message
+[2022-09-21 16:13:00,180] INFO mainapp.tasks (13) Send message: '{'user_id': 1, 'message': 'test_message_text'}'
